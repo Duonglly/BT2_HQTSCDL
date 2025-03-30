@@ -40,5 +40,26 @@ HÌNH THỨC LÀM BÀI:
 ![Ảnh chụp màn hình 2025-03-28 150235](https://github.com/user-attachments/assets/321d2118-55b7-4e83-b6ac-28f5ce6507fa)
 ##  Viết lệnh truy vấn để: Tính được điểm thành phần của 1 sinh viên đang học tại 1 lớp học phần.
 ![Ảnh chụp màn hình 2025-03-28 150212](https://github.com/user-attachments/assets/938c036c-d20d-404b-947e-94df079021a6)
+## Chụp ảnh màn hình các bảng có đường nối một nhiều
+  1.sinhvien → dkmh: Một sinh viên (1) có thể đăng ký nhiều môn học (nhiều), nhưng mỗi môn học chỉ thuộc về một sinh viên.
+  ![Ảnh chụp màn hình 2025-03-30 221248](https://github.com/user-attachments/assets/12f04115-6dc5-4be6-bc3d-7324224db2a0)
+  2. lop → lopsv: Một lớp học (1) có thể chứa nhiều sinh viên (nhiều), nhưng mỗi sinh viên chỉ thuộc về một lớp.
+  ![image](https://github.com/user-attachments/assets/d9b47419-6319-4760-bf55-acda2b84ff2b)
+  3. lop → gvcn: Một lớp học (1) chỉ có một giáo viên chủ nhiệm (1), nhưng một giáo viên có thể chủ nhiệm nhiều lớp học (nhiều).
+  ![image](https://github.com/user-attachments/assets/45a3fd6e-e294-45bd-9071-37884331497c)
+  4.lop → dkmh: Một lớp học (1) có thể liên quan đến nhiều môn học mà sinh viên trong lớp đăng ký (nhiều).
+  ![image](https://github.com/user-attachments/assets/348d8774-fa25-44da-a153-cd475a3c6f7f)
+  5. lop → diem: Một lớp học (1) sẽ chứa điểm của nhiều sinh viên trong lớp (nhiều).
+  ![image](https://github.com/user-attachments/assets/4be195c7-5d63-4f39-81a6-5bc6215dbdb3)
+  7. lop → lopphp: Một lớp học (1) có thể liên quan đến nhiều lớp phụ huynh - phụ trách (nhiều).
+  ![image](https://github.com/user-attachments/assets/d69a33f2-9000-4320-83d7-3e34742c3612)
+  8.lopphp → monhoc: Một lớp phụ trách (1) có thể quản lý nhiều môn học (nhiều).
+  ![image](https://github.com/user-attachments/assets/570c403d-dad5-44f0-b485-e0a43696716d)
+  9. giaovien → gvcn: Một giáo viên (1) có thể chủ nhiệm nhiều lớp (nhiều)
+  ![image](https://github.com/user-attachments/assets/86c1b402-af71-40d4-a3cd-c0b49b17d51a)
+  9.giaovien → bomon: Một giáo viên (1) có thể tham gia nhiều bộ môn (nhiều)
+  ![image](https://github.com/user-attachments/assets/d4f7a2d0-c820-4696-a750-8fa3a3e4b445)
+  10.bomon → khoa: Một bộ môn (1) thuộc về một khoa (1), nhưng một khoa có thể bao gồm nhiều bộ môn (nhiều).
+  ![image](https://github.com/user-attachments/assets/d2470858-8636-4624-a30a-2618d33acacc)
 
 
